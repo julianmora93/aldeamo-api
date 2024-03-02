@@ -1,6 +1,7 @@
 package com.aldeamo.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,12 @@ public class ArrayService implements IArrayService {
 
     @Override
     public List<ArrayEntity> getAll() {
-        return (List<ArrayEntity>) arraysRepository.findAll();
+        return arraysRepository.findAll();
+    }
+
+    @Override
+    public Optional<ArrayEntity> getById(Integer id) {
+        return arraysRepository.findById(id);
     }
 
 }

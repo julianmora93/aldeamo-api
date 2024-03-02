@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>com.aldeamo</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0.1</version>
 	<packaging>war</packaging>
+
 	<name>api</name>
 	<description>Prueba desarrollada por Julkian Mora para Aldeamo</description>
 	<properties>
@@ -42,11 +43,6 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency> -->
 	</dependencies>
 
 	<build>
