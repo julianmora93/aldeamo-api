@@ -1,6 +1,6 @@
 API Rest de prueba
 
-Configuracion del proyecto:
+Configuración del proyecto:
   - SpringBoot Project Maven
   - Lenguaje Java
   - Java 17.0.10
@@ -15,7 +15,7 @@ Configuracion del proyecto:
   - Base de datos:
     > Amazon RDS
     > MySQL 8.0.35
-  - Uso de AWS VPC para la configuracion de red de la Instancia EC2 y el RDS
+  - Uso de AWS VPC para la configuración de red de la Instancia EC2 y el RDS
 
 Configuraicon del proyecto inicial con Spring Initializr
 
@@ -23,13 +23,13 @@ Configuraicon del proyecto inicial con Spring Initializr
 
 
 
-Configuracion VPC
+Configuración VPC
 
 ![image](https://github.com/julianmora93/aldeamo-api/assets/133082144/87755b23-ce0f-485b-b710-289865be1897)
 
 
 
-Configuracion Instancia EC2
+Configuración Instancia EC2
 
 ![image](https://github.com/julianmora93/aldeamo-api/assets/133082144/2602a30f-cb6d-44aa-80d3-f818aff055eb)
 
@@ -41,7 +41,7 @@ Paquetes del proyecto
 
 
 
-Para la solucion del problema se agregaron los datos de prueba del ejemplo y se agregó un metodo que genera la traza de seguimiento como en el ejemplo:
+Para la solución del problema se agregaron los datos de prueba del ejemplo y se agregó un método que genera la traza de seguimiento como en el ejemplo:
 
 
 > Table de base de datos
@@ -75,5 +75,6 @@ Para la solucion del problema se agregaron los datos de prueba del ejemplo y se 
 
 
 
-Para completar el objetivo que es el retorno de los valores de respuesta, se agregó otro metodo que obtiene esa respuesta:
+Para completar el objetivo que es el retorno de los valores de respuesta, se agregó otro método que obtiene esa respuesta:
+
 ![image](https://github.com/julianmora93/aldeamo-api/assets/133082144/c5481862-c6ef-4842-bd90-11599996a83c)
